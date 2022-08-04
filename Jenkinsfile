@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git 'https://github.com/tkibnyusuf/realone-repo.git'
+                git 'https://github.com/Pilas01/sonar-repo.git'
             }
         }
         
